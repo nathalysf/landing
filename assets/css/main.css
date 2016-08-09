@@ -1,0 +1,99 @@
+body {
+  font-family: "san francisco" !important;
+  font-weight: 400 !important;
+}
+body p {
+  font-size: 14px;
+}
+
+  .green {
+  background-color: #8db12f;
+  height: 100px;
+}
+
+
+@media screen and (min-width: 552px){
+.green {
+  background-color: #8db12f;
+  height: 55px;
+}
+}
+
+
+@media screen and (min-width: 1201px) {
+.bg-img {
+  background-image: url(../img/imagen.png);
+    width: 53%;
+    height: 642px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+.bg-img {
+  background-image: url(../img/imagen.png);
+    width: 65%;
+    height: 642px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+}
+@media screen and (min-width: 780px) and (max-width: 991px){
+.bg-img {
+  background-image: url(../img/imagen.png);
+    width: 84%;
+    height: 642px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+}
+
+
+.logo-div {
+      width: 100px;
+    height: 155px;
+    background-color: white;
+    position: relative;
+    left: 7%;
+    border: 1px solid #9A9999;
+    border-radius: 4%;
+}
+.logo-div img {
+  position: relative;
+    left: 21%;
+    top: 24%;
+    width: 60%;
+}
+footer{background-color: black; color: white;    padding: 2% 0% 3% 0%;}
+form {padding-bottom: 3%;}
+ form input {
+  border-radius: 6px;
+  border: 0px;
+  height: 35px;
+  margin: 10px 0px 10px 0px;
+  font-size: 18px;
+  padding: 0px 0px 0px 12px;
+}
+
+.correo {
+  width: 76%;
+  color: gray;
+}
+.submi {
+  width: 19%;
+  width: 19%;
+  padding-left: 0px;
+  margin-left: 3%;
+  background-color: #73BF44;
+}
+
+.submi:hover {
+  background-color: #73BF44;
+}
+
+.submi:active {
+  background-color: #73BF44;
+}
