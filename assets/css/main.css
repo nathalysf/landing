@@ -6,16 +6,17 @@ body p {
   font-size: 14px;
 }
 
-  .green {
+@media only screen and (min-width: 330px) and (max-width: 552px){
+.green {
   background-color: #8db12f;
   height: 100px;
 }
+}
 
-
-@media screen and (min-width: 552px){
+@media screen and (min-width: 780px) and (max-width: 2000px){
 .green {
   background-color: #8db12f;
-  height: 55px;
+  height: 58px;
 }
 }
 
