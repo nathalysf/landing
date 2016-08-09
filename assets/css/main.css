@@ -6,6 +6,12 @@ body p {
   font-size: 14px;
 }
 
+.bg-img {
+    background-image: url(../img/div-imagen.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /*responsive*/
 @media only screen and (max-width: 980px){
 .green {
@@ -56,72 +62,66 @@ footer {
 }
 
 @media screen and (min-width: 981px){
-.green {
-  background-color: #8db12f;
-  height: 58px;
-}
-.logo-div {
-        z-index: 100;
-    width: 100px;
-    height: 160px;
-    background-color: white;
-    position: relative;
-    left: 7%;
-    border: 1px solid #9A9999;
-    border-radius: 4%;
-    top: -10px;
+  .green {
+    background-color: #8db12f;
+    height: 58px;
+  }
+  .logo-div {
+          z-index: 100;
+      width: 100px;
+      height: 160px;
+      background-color: white;
+      position: relative;
+      left: 7%;
+      border: 1px solid #9A9999;
+      border-radius: 4%;
+      top: -10px;
 
-}
-.logo-div img {
-  position: relative;
-    left: 21%;
-    top: 34%;
-    width: 60%;
-}
-form {padding-bottom: 3%;}
- form input {
-  border-radius: 6px;
-  border: 0px;
-  height: 35px;
-  margin: 10px 0px 10px 0px;
-  font-size: 18px;
-  padding: 0px 0px 0px 12px;
-}
-footer{background-color: black; color: white;    padding: 2% 0% 3% 0%;}
-.col-xs-4 img {
-  width: 39%;
-}
+  }
+  .logo-div img {
+    position: relative;
+      left: 21%;
+      top: 34%;
+      width: 60%;
+  }
+  form {padding-bottom: 3%;}
+   form input {
+    border-radius: 6px;
+    border: 0px;
+    height: 35px;
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+    padding: 0px 0px 0px 12px;
+  }
+  footer{background-color: black; color: white;    padding: 2% 0% 3% 0%;}
+  .col-xs-4 img {
+    width: 39%;
+  }
 }
 
 
 @media screen and (min-width: 1201px) {
 .bg-img {
-  background-image: url(../img/imagen.png);
+
     width: 53%;
     height: 642px;
     margin: auto;
-    background-size: contain;
-    background-repeat: no-repeat;
+   
 }
 }
 @media screen and (min-width: 981px) and (max-width: 1200px){
 .bg-img {
-  background-image: url(../img/imagen.png);
+  
     width: 65%;
     height: 642px;
     margin: auto;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 }
 @media screen and (min-width: 780px) and (max-width: 980px){
 .bg-img {
-      background-image: url(../img/imagen.png);
     width: 100%;
     height: 945px;
     /* margin: auto; */
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 .container-xs {
       padding-right: 0px!important;
