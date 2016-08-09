@@ -6,17 +6,90 @@ body p {
   font-size: 14px;
 }
 
-@media only screen and (min-width: 330px) and (max-width: 552px){
+/*responsive*/
+@media only screen and (max-width: 980px){
 .green {
   background-color: #8db12f;
-  height: 100px;
+  height: 11em;
+}
+
+.logo-div {
+        z-index: 100;
+    width: 180px;
+    height: 285px;
+    background-color: white;
+    position: relative;
+    left: 7%;
+    border: 1px solid #9A9999;
+    border-radius: 4%;
+    top: -10px;
+} 
+
+.logo-div img {
+  position: relative;
+    left: 21%;
+    top: 31%;
+    width: 60%;
+}
+h3 {
+      font-size: 40px!important;
+}
+form {
+    padding-bottom: 6%;
+}
+form input {
+    border-radius: 6px;
+    border: 0px;
+    height: 55px;
+    margin: 10px 0px 10px 0px;
+    font-size: 25px;
+    padding: 0px 0px 0px 12px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 9% 0% 9% 0%;
+}
+.col-xs-4 img {
+  width: 50%;
 }
 }
 
-@media screen and (min-width: 780px) and (max-width: 2000px){
+@media screen and (min-width: 981px){
 .green {
   background-color: #8db12f;
   height: 58px;
+}
+.logo-div {
+        z-index: 100;
+    width: 100px;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    left: 7%;
+    border: 1px solid #9A9999;
+    border-radius: 4%;
+    top: -10px;
+
+}
+.logo-div img {
+  position: relative;
+    left: 21%;
+    top: 34%;
+    width: 60%;
+}
+form {padding-bottom: 3%;}
+ form input {
+  border-radius: 6px;
+  border: 0px;
+  height: 35px;
+  margin: 10px 0px 10px 0px;
+  font-size: 18px;
+  padding: 0px 0px 0px 12px;
+}
+footer{background-color: black; color: white;    padding: 2% 0% 3% 0%;}
+.col-xs-4 img {
+  width: 39%;
 }
 }
 
@@ -31,7 +104,7 @@ body p {
     background-repeat: no-repeat;
 }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 981px) and (max-width: 1200px){
 .bg-img {
   background-image: url(../img/imagen.png);
     width: 65%;
@@ -41,43 +114,33 @@ body p {
     background-repeat: no-repeat;
 }
 }
-@media screen and (min-width: 780px) and (max-width: 991px){
+@media screen and (min-width: 780px) and (max-width: 980px){
 .bg-img {
-  background-image: url(../img/imagen.png);
-    width: 84%;
-    height: 642px;
-    margin: auto;
+      background-image: url(../img/imagen.png);
+    width: 100%;
+    height: 945px;
+    /* margin: auto; */
     background-size: contain;
     background-repeat: no-repeat;
 }
+.container-xs {
+      padding-right: 0px!important;
+    padding-left: 30px!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    width: 100%!important;
+}
+}
+@media screen and (min-width: 200px) and (max-width: 779px){
+  .green {
+  background-color: #8db12f;
+  height: 200px!important;
+}
 }
 
 
-.logo-div {
-      width: 100px;
-    height: 155px;
-    background-color: white;
-    position: relative;
-    left: 7%;
-    border: 1px solid #9A9999;
-    border-radius: 4%;
-}
-.logo-div img {
-  position: relative;
-    left: 21%;
-    top: 24%;
-    width: 60%;
-}
-footer{background-color: black; color: white;    padding: 2% 0% 3% 0%;}
-form {padding-bottom: 3%;}
- form input {
-  border-radius: 6px;
-  border: 0px;
-  height: 35px;
-  margin: 10px 0px 10px 0px;
-  font-size: 18px;
-  padding: 0px 0px 0px 12px;
-}
+
+
 
 .correo {
   width: 76%;
@@ -88,13 +151,17 @@ form {padding-bottom: 3%;}
   width: 19%;
   padding-left: 0px;
   margin-left: 3%;
-  background-color: #73BF44;
+  background-color: #8db12f;
 }
 
 .submi:hover {
-  background-color: #73BF44;
+  background: #83aa2f; /* Old browsers */
+background: -moz-linear-gradient(top, #83aa2f 0%, #176a3d 78%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #83aa2f 0%,#176a3d 78%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #83aa2f 0%,#176a3d 78%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83aa2f', endColorstr='#176a3d',GradientType=0 ); /* IE6-9 */
 }
 
 .submi:active {
-  background-color: #73BF44;
+  background-color: #176A3D;
 }

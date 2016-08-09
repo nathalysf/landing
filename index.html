@@ -15,7 +15,7 @@
 	</div>
 </section>
 <section>
-	<div class="container">
+	<div class="container container-xs">
 		<div class="col-xs-12">
 			<div class="bg-img">
 				
@@ -27,16 +27,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
-				<form >
-					<h3 class="">Suscribete para recibir más información</h3>
-					<input type="email" placeholder="Escribe tu correo" name="correo" class="correo" required>
+				<form action="mail.php" onsubmit="return checkSubmit();" method="post" enctype="multipart/form-data">
+					<h3 class="">Suscríbete para recibir más información</h3>
+					<input type="email" placeholder="Escribe tu correo" name="email" class="correo" required>
 					<input type="submit" name="submit" value="Enviar" class="submi">
 				</form>
-				<div class="col-xs-4 col-xs-offset-3"><img src="assets/icon/icono-face.png" style="width:38%;"></div>
+				<div class="col-xs-4 col-xs-offset-3"><img src="assets/icon/icono-face.png" ></div>
           		<div class="col-xs-4"><img src="assets/icon/icono-web.png"></div>
 			</div>
         </div>
 	</div>
 </footer>
+<script type="text/javascript" src="assets/js/valid.js"></script>
 </body>
 </html>
